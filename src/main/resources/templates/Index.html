@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document Helper</title>
+    <!-- For Browser-->
+    <link rel="stylesheet" type="text/css" href="/CSS/Request.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/Response.css">
+    <!-- For built-in previews-->
+    <link rel="stylesheet" href="../static/CSS/Request.css">
+    <link rel="stylesheet" href="../static/CSS/Response.css">
+    <script src="/JS/DocumentHelperJS.js" defer></script>
+
+</head>
+<body>
+<div id="top">
+    <div id="top_bar">
+        <a>What do you need?</a>
+    </div>
+
+    <div class="select-container">
+        <select id="action-select" class="curved-dropdown">
+            <option value="Check Grammar in English and provide corrected text">Check Grammar</option>
+            <option value="Provide Short description of this text in English. Response should be 5-10 senescence long">Provide short description</option>
+            <option value="Provide key elements of this text in bullet-points ">Provide Key elements</option>
+            <option value="Provide detailed overview of this text. ">Detailed overview</option>
+        </select>
+        <button type="submit" class="submit-button" onclick="submitQuery()">Submit</button>
+    </div>
+</div>
+
+<div id="document-details" class="document-details" contenteditable="true">
+</div>
+
+<div id="response-details" class="response-details"></div>
+
+</body>
+</html>

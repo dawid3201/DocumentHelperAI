@@ -1,0 +1,14 @@
+.response-details  {
+    width: 1300px;
+    height: 30%;
+    font-family: monospace;
+    min-width: 1300px;
+    max-height: 1400px;
+    min-height: 30vh;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: auto;
+}
